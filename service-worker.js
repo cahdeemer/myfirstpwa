@@ -2,22 +2,22 @@ var dataCacheName = 'weatherData-v1';
 var cacheName = 'weatherPWA-step-6-1';
 var filesToCache = [
 	'/myfirstpwa/',
-	'/myfirstpwa/index.html',
-	'/myfirstpwa/scripts/app.js',
-	'/myfirstpwastyles/inline.css',
-	'/myfirstpwa/images/clear.png',
-	'/myfirstpwa/images/cloudy-scattered-showers.png',
-	'/myfirstpwa/images/cloudy.png',
-	'/myfirstpwa/images/fog.png',
-	'/myfirstpwa/images/ic_add_white_24px.svg',
-	'/images/ic_refresh_white_24px.svg',
-	'/myfirstpwa/images/partly-cloudy.png',
-	'/myfirstpwa/images/rain.png',
-	'/myfirstpwa/images/scattered-showers.png',
-	'/myfirstpwa/images/sleet.png',
-	'/myfirstpwa/images/snow.png',
-	'/myfirstpwa/images/thunderstorm.png',
-	'/myfirstpwa/images/wind.png'
+	// '/myfirstpwa/index.html',
+	// '/myfirstpwa/scripts/app.js',
+	// '/myfirstpwastyles/inline.css',
+	// '/myfirstpwa/images/clear.png',
+	// '/myfirstpwa/images/cloudy-scattered-showers.png',
+	// '/myfirstpwa/images/cloudy.png',
+	// '/myfirstpwa/images/fog.png',
+	// '/myfirstpwa/images/ic_add_white_24px.svg',
+	// '/images/ic_refresh_white_24px.svg',
+	// '/myfirstpwa/images/partly-cloudy.png',
+	// '/myfirstpwa/images/rain.png',
+	// '/myfirstpwa/images/scattered-showers.png',
+	// '/myfirstpwa/images/sleet.png',
+	// '/myfirstpwa/images/snow.png',
+	// '/myfirstpwa/images/thunderstorm.png',
+	// '/myfirstpwa/images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
