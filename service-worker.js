@@ -2,7 +2,7 @@ var dataCacheName = 'weatherData-v1';
 var cacheName = 'weatherPWA-step-6-1';
 var filesToCache = [
 	'/myfirstpwa/',
-	// '/myfirstpwa/index.html',
+	'/myfirstpwa/index.html'
 	// '/myfirstpwa/scripts/app.js',
 	// '/myfirstpwastyles/inline.css',
 	// '/myfirstpwa/images/clear.png',
@@ -33,7 +33,7 @@ self.addEventListener('install', function(e) {
 self.addEventListener('activate', function(e) {
 	console.log('[ServiceWorker] Activate');
 	e.waitUntil(
-		caches.keys().then(function(keylist) {
+		caches.keys().then(function(keyList) {
 			return Promise.all(keyList.map(function(key) {
 				if (key !== cacheName || key !== dataCacheName) {
 					console.log('[ServiceWorker] Removing old cache', key);
